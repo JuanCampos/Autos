@@ -1,0 +1,79 @@
+.title2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.nombreMarca{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nombreAuto{
+    font-size: 25px
+}
+
+@media screen and (min-width: 360px) {
+    .contenedor{
+        width: 96%;
+        margin: 0 0 5px 5px;
+    }
+
+    .texto{
+        width: 96%;
+    }
+
+    .img{
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .article{
+        width: 98%;
+        margin: 0 0 5px 5px;
+    }
+
+    .texto{
+        width: 98%;
+    }
+
+    .img{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .article {
+        width: 98%;
+        margin: 0 0 5px 5px;
+    }
+    .texto{
+        width: 98%;
+    }
+
+    .img{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .article {
+        width: 99%;
+        margin: 0 0 5px 5px;
+    }
+    .texto{
+        width: 98%;
+    }
+
+    .img{
+        width: 98%;
+    }
+}
+
+p{
+    font-size: 25px;
+}
